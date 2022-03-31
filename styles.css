@@ -1,0 +1,39 @@
+/*Main screen*/
+
+.mainScreen{
+    position: absolute;
+    font-size: 60px;    
+}
+
+.backgroundVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#question1{
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+}
+#question2{
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+}
+#question3{
+    position: absolute;
+    left: 55vw;
+    top: 40vh;
+}
+#nextPage{
+    position: absolute;
+    left: 45vw;
+    top: 85vh;    
+}
+#imgOptions{
+    max-width: 90px;
+}
+
