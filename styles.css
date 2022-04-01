@@ -1,8 +1,8 @@
 /*Main screen*/
 
 .mainScreen{
-    position: absolute;
-    font-size: 60px;    
+    position: absolute; 
+    width: 99%; 
 }
 
 .backgroundVideo{
@@ -35,5 +35,49 @@
 }
 #imgOptions{
     max-width: 90px;
+}
+
+
+
+/* CHOOSE YOUR CHARACTER PAGE */
+
+#choose {
+    text-align: center;
+}
+
+.characters {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.characters button {
+    background-color: rgba(250, 235, 215, 0.555);
+    font-size: 1vw;
+}
+
+/* EVA */
+.eva{
+    background-color: #c291a4;
+}
+
+/* VALENTINE */
+.valent{
+    background-color: #FE6900;
+}
+
+/* SZILARD */
+.szilard{
+    background-color: #611e26;
+}
+
+/* NIYA */
+.niya{
+    background-color: #0073A1;
+}
+
+/* DANIEL */
+.daniel{
+    background-color: #4895ef;
 }
 
