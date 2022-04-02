@@ -42,7 +42,9 @@
 /* CHOOSE YOUR CHARACTER PAGE */
 
 #choose {
+    
     text-align: center;
+    
 }
 
 .characters {
@@ -109,3 +111,10 @@
     background-color: #4895ef;
 }
 
+/* Main Content Box*/
+
+.contentBox{
+    height: 80vh;
+    width: 80vw;
+    background-color: #332e2f62;
+}
