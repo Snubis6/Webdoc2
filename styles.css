@@ -51,9 +51,37 @@
 
 }
 
+.characterAvatar {
+    display: flex;
+    justify-content: left;
+
+}
+
 .characters button {
     background-color: rgba(250, 235, 215, 0.555);
     font-size: 1vw;
+}
+.characterAvatar button {
+    background-color: #FE6900;
+    font-size: 1vw; 
+    border: none;
+
+}
+
+.hovereffectVM:hover{
+    box-shadow: 1px 1px 50px 15px #FE6900;
+}
+.hovereffectES:hover{
+    box-shadow: 1px 1px 50px 20px #c291a4;
+}
+.hovereffectDI:hover{
+    box-shadow: 1px 1px 50px 15px #4895ef;
+}
+.hovereffectNM:hover{
+    box-shadow: 1px 1px 50px 20px #0073A1;
+}
+.hovereffectSK:hover{
+    box-shadow: 1px 1px 50px 20px #611e26;
 }
 
 /* EVA */
