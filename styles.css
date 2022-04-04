@@ -4,6 +4,10 @@
     position: absolute; 
     width: 99%; 
 }
+.mainScreen h1{
+    font-size: 100px;
+    color: wheat;
+}
 
 .backgroundVideo{
     position: fixed;
@@ -44,6 +48,7 @@
 #choose {
     
     text-align: center;
+    margin: auto;
     
 }
 
