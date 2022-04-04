@@ -63,12 +63,13 @@
     justify-content: space-between;
 
 }
-
-.characters button {
+.hovereffectVM, .hovereffectES, .hovereffectDI, .hovereffectNM, .hovereffectSK{
     background-color: rgba(250, 235, 215, 0.555);
     font-size: 1vw;
 }
-.characterAvatar button {
+
+
+#avatarVM {
     background-color: #FE6900;
     font-size: 1vw; 
     border: none;
@@ -102,7 +103,9 @@
 }
 
 #buttonRight{
-    /* padding-left: 2vh; */
+    font-size: 1vw; 
+    border: none;
+    background-color: #FE6900;
 }
 
 #buttonDown{
@@ -111,8 +114,16 @@
     background-color: #FE6900;
     position: relative;
     left: 45%;
-    top: 1vw;
-    
+    top: 1vw;    
+}
+
+.changeChar{
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1px rgba(238, 31, 31, 0.555);
+}
+.changeChar:hover{
+    box-shadow: 0px 0px 20px 1px #2c2208;
 }
 
 
@@ -136,9 +147,9 @@
 .contentBox{
     height: 75vh;
     width: 80vw;
-    overflow: auto;
-    
+    overflow: auto;    
 }
+
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
