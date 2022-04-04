@@ -60,7 +60,7 @@
 
 .characterAvatar {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
 
 }
 
@@ -101,6 +101,21 @@
     background-color: #FE6900;
 }
 
+#buttonRight{
+    /* padding-left: 2vh; */
+}
+
+#buttonDown{
+    font-size: 1vw; 
+    border: none;
+    background-color: #FE6900;
+    position: relative;
+    left: 45%;
+    top: 1vw;
+    
+}
+
+
 /* SZILARD */
 .szilard{
     background-color: #611e26;
@@ -119,7 +134,13 @@
 /* Main Content Box*/
 
 .contentBox{
-    height: 80vh;
+    height: 75vh;
     width: 80vw;
     background-color: #332e2f62;
+    overflow: auto;
+    
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
