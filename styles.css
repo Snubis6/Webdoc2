@@ -63,6 +63,12 @@
     justify-content: space-between;
 
 }
+
+.characterAvatarD {
+    display: flex;
+    justify-content: left;
+
+}
 .hovereffectVM, .hovereffectES, .hovereffectDI, .hovereffectNM, .hovereffectSK{
     background-color: rgba(250, 235, 215, 0.555);
     font-size: 1vw;
@@ -107,6 +113,7 @@
     border: none;
     background-color: #FE6900;
 }
+
 
 #buttonDown{
     font-size: 1vw; 
