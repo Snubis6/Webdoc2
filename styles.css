@@ -19,23 +19,23 @@
 
 #question1{
     position: absolute;
-    left: 10vw;
-    top: 10vh;
+    left: 20vw;
+    top: 4vh;
 }
 #question2{
     position: absolute;
-    left: 25vw;
-    top: 25vh;
+    left: 45vw;
+    top: 4vh;
 }
 #question3{
     position: absolute;
-    left: 55vw;
-    top: 40vh;
+    left: 65vw;
+    top: 4vh;
 }
 #nextPage{
     position: absolute;
     left: 45vw;
-    top: 85vh;    
+    top: 68vh;    
 }
 #imgOptions{
     max-width: 90px;
